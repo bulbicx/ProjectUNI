@@ -1,0 +1,145 @@
+.slides .slick-prev,
+.slides .slick-next {
+position: absolute;
+top: 50%;
+z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: #34495E!important;
+font-size: 30px;
+}
+
+.slides {
+position: relative;
+}
+
+.slides .slick-prev {
+left: 5%;
+}
+
+.slides .slick-next {
+right: 5%;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    color: #34495E!important;
+}
+
+.main_container,
+.main_container_landlords,
+.main_container_users {
+    padding: 2em;
+    width: 100%;
+}
+
+.main_container {
+    background: #E6EFFE;
+}
+
+.main_container_landlords {
+    background: #FADBD8;
+}
+
+.main_container_users {
+    background: #FBF5E0;
+}
+
+.title {
+    color: #6B8FF9;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.title_landlords {
+    color: #EC7063;
+    font-size: 2.8rem;
+}
+
+.title_users {
+    color: #EBB953;
+    font-size: 2.8rem;
+}
+
+.search_bar_box {
+    width: 42vw;
+    padding: 3.4em 2.5em 1em;
+    position: relative;
+}
+
+.search_label {
+    font-size: 1.5rem;
+    margin: 0 1em 1em 0.6em;
+    letter-spacing: 1px;
+}
+
+.search_input {
+    background: #F1F2F4;
+    padding: 0.6em 1em;
+    font-size: 1.1rem;
+    width: 30vw;
+    border-radius: 0.7em;
+    border: none;
+    box-shadow: 2px 0 5px 2px #707070;
+}
+
+.search_icon {
+    position: absolute;
+    top: 69%;
+    left: 71%;
+}
+
+.title_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3em 0;
+}
+
+.img_icon:hover,
+.img_icon:focus {
+    cursor: pointer;
+}
+
+.files {
+    margin: 2em;
+    box-shadow: 0px 0 5px 1px #707070;
+    background: white;
+    box-sizing: border-box;
+}
+
+.action_cell {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.action_cell_other {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action_icon {
+    padding: 0 0.4em;
+    height: 100%;
+}
+
+.no_user_found {
+    padding: 3em;
+    letter-spacing: 1px;
+}
+
+.message_no_user {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.pagination_section {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
